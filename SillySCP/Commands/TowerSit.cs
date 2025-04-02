@@ -33,9 +33,9 @@ namespace SillySCP.Commands
         public string Description { get; } = "Teleport a player to the tower and return them after";
         public string[] Aliases { get; } = ["ts"];
 
-        private const string Usage = "Invalid Usage, Applicable usages:" +
-                                     "\n ts add <PLAYER> - teleport a player to the tower (Both IDs and Partial Usernames are accepted)" +
-                                     "\n ts restore <PLAYER> - restore a players original position (Both IDs and Partial Usernames are accepted)";
+        private const string Usage = "Invalid Usage, Applicable usages:\n" +
+                                     "ts add <PLAYER> - teleport a player to the tower (Both IDs and Partial Usernames are accepted)\n" +
+                                     "ts restore <PLAYER> - restore a players original position (Both IDs and Partial Usernames are accepted)";
         
         public bool Execute(
             ArraySegment<string> arguments,
